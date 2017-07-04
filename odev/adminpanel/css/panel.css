@@ -1,0 +1,102 @@
+﻿body
+{
+	margin:0;
+	padding:0;
+}
+.header
+{
+	width:100%;
+	height:75px;
+	background-color:#80DEEA;
+	margin-top:-20px;
+}
+.logo
+{
+	width:20%;
+	height:75px;
+	padding-left:50px;
+}
+.aside
+{
+	width:20%;
+	height:587px;
+	background-color:#BBDEFB;
+	float:left;
+}
+.content
+{
+	width:80%;
+	height:587px;
+	float:left;
+}
+.resim
+{
+	width:200px;
+	height:250px;
+	float:left;
+	margin:50px;
+	border:3px solid black;
+	border-radius:25px 50px;
+}
+.bilgiler
+{
+	width:500px;
+	height:200px;
+	float:left;
+	margin:50px;
+	border:3px solid black;
+	border-radius:50px 25px;
+	padding:30px;
+}
+.menu
+{
+	width:100%;
+	height:50px;
+	background-color:#BBDEFB;
+	float:left;
+	color:white;
+	padding-top:20px;
+}
+.home
+{
+	width:100%;
+	height:100px;
+	background-color:#BBDEFB;
+	float:left;
+}
+table
+{
+    width: 80%;
+	border:1px solid black;
+}
+
+th, td
+{
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th 
+{
+    background-color: #4CAF50;
+    color: white;
+}
+.vertical-menu {
+    width: 100%; 
+}
+
+.vertical-menu a {
+    background-color: #BBDEFB; 
+    color: white; 
+    display: block; 
+	padding: 12px; 
+    text-decoration: none;
+	font-family:tahoma;
+}
+
+.vertical-menu a:hover {
+    background-color: #1E88E5; 
+	transition-duration: 0.5s;
+}
